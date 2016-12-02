@@ -123,7 +123,7 @@
                         </ul>
                     </li>
                     <li class="treeview">
-                        <a href="">
+                        <a href="{{ URL::to('transaksi') }}">
                             <i class="fa fa-shopping-cart"></i>
                             <span>Transaksi</span>
                         </a>

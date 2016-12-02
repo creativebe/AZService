@@ -22,5 +22,5 @@ Route::group(['middleware => web'], function(){
 	Route::get('/','HomeController@index');
 });
 Route::group(['middleware => admin'], function(){
-	Route::get('/list-users','UsersController@index');
+	Route::get('/manage-user','UsersController@index');
 });

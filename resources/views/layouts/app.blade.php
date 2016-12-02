@@ -76,7 +76,7 @@
                     <li class="header">MAIN MENU</li>
                     @permission(('manage-user'))
                     <li>
-                        <a href="">
+                        <a href="{{ URL::to('/') }}">
                             <i class="fa fa-dashboard"></i>
                             <span>Dashboard</span>
                         </a>
@@ -100,6 +100,15 @@
                                 </a>
                             </li>
                         </ul>
+                    </li>
+                    @endpermission
+
+                    @permission(('manage-privilege'))
+                    <li>
+                        <a href="{{ URL::to('/') }}">
+                            <i class="fa fa-user-secret"></i>
+                            <span>Privilege</span>
+                        </a>
                     </li>
                     @endpermission
                     <li class="treeview">

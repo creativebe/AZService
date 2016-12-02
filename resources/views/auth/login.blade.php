@@ -55,9 +55,6 @@
                 @endif
               </div>
               <button id="btn_Login" name="btn_Login" type="submit" class="btn btn-block btn-primary" value="Login">Login</button>
-              @if (Auth::guest())
-              <li><a href="{{ url('/register') }}">Register</a></li>
-              @endif
             </form>
           </div>
         </div>

@@ -117,12 +117,6 @@
                             <li>
                                 <a href="#">
                                     <i class="fa fa-circle-o"></i>
-                                    List Customer
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-circle-o"></i>
                                     Manage Customer
                                 </a>
                             </li>
@@ -149,12 +143,6 @@
                             <li>
                                 <a href="#">
                                     <i class="fa fa-circle-o"></i>
-                                    List Service
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-circle-o"></i>
                                     Manage Service
                                 </a>
                             </li>
@@ -170,12 +158,6 @@
                                 <a href="#">
                                     <i class="fa fa-circle-o"></i>
                                     Add Stock
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-circle-o"></i>
-                                    List Stock
                                 </a>
                             </li>
                             <li>

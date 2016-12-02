@@ -20,6 +20,7 @@
 Route::group(['middleware => web'], function(){
 	Route::auth();
 	Route::get('/','HomeController@index');
+	Route::get('/manage-customer','CustomerController@index');
 });
 Route::group(['middleware => admin'], function(){
 	Route::get('/manage-user','UsersController@index');

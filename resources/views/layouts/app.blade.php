@@ -115,7 +115,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="{{ URL::to('manage-customer') }}">
                                     <i class="fa fa-circle-o"></i>
                                     Manage Customer
                                 </a>

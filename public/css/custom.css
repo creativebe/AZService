@@ -1,0 +1,164 @@
+.wrapper{
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.container-table{
+  display: table;
+}
+.vertical-center-row{
+  display: table-cell;
+  vertical-align: middle;
+}
+.flat{
+  border-radius: 0px !important;
+}
+.custInput{
+  border-radius: 0px;
+}
+
+.has-feedback .form-control {
+  padding-right: 34px;
+}
+.has-feedback .form-control.input-sm,
+.has-feedback.form-group-sm .form-control {
+  padding-right: 30px;
+}
+.has-feedback .form-control.input-lg,
+.has-feedback.form-group-lg .form-control {
+  padding-right: 46px;
+}
+.has-feedback-left .form-control {
+  padding-right: 12px;
+  padding-left: 34px;
+}
+.has-feedback-left .form-control.input-sm,
+.has-feedback-left.form-group-sm .form-control {
+  padding-left: 30px;
+}
+.has-feedback-left .form-control.input-lg,
+.has-feedback-left.form-group-lg .form-control {
+  padding-left: 46px;
+}
+.has-feedback-left .form-control-feedback {
+  left: 0;
+}
+a:hover, a:active, a:focus{
+  outline: none;
+  text-decoration: none;
+}
+
+/*
+ *
+ * Color
+ *
+ */
+.black{
+  background-color: #222d32;
+}
+.teal{
+  background-color: #00796B;
+}
+
+/*
+ *
+ * Navbar ( Top )
+ *
+ */
+
+.main-header .logo{
+  background-color: #00695C;
+  color: #fff;
+}
+.main-header .navbar{
+  background-color: #00796B;
+}
+.main-header .navbar .nav>li>a{
+  color: #fff;
+}
+.main-header .navbar .subtitle{
+  color: #fff;
+}
+.main-header .subtitle{
+  float: left;
+  padding: 15px;
+}
+.navbar .nav>li>a:hover,
+.navbar .nav>li>a:active,
+.navbar .nav>li>a:focus{
+  background: #00695C !important;
+}
+.nav .open > a{
+  background-color: #00695C;
+}
+.main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.main-header .sidebar-toggle {
+  font-family: Glyphicons Halflings;
+}
+.main-header .sidebar-toggle:before {
+  content: "\e055";
+}
+
+/*
+ *
+ * SideBar
+ *
+ *
+ */
+
+.main-sidebar{
+  background-color: #222d32;
+}
+.sidebar-menu>li.header{
+  color: #4b646f;
+  background: #1a2226;
+}
+.sidebar a{
+  color: #b8c7ce;
+}
+.sidebar-menu>li>a{
+  border-left: 3px solid transparent;
+}
+.sidebar-menu>li:hover>a{
+  background-color: #1e282c;
+  border-left-color: #00796B;
+}
+.treeview-menu>li>a{
+  color:  #8aa4af;
+}
+.treeview-menu>li>a:hover{
+  color:  #fff;
+}
+.sidebar-menu>li>.treeview-menu{
+  margin: 0 1px;
+  background: #2c3b41;
+}
+
+/*
+ *
+ * Button
+ *
+ *
+ */
+
+ .btn-teal{
+  background-color: #00796B;
+  color: #fff;
+ }
+ .btn-teal:hover{
+  background-color: #00695C;
+  color: #fff;
+ }
+
+ /*
+ *
+ * Content
+ *
+ *
+ */
+
+ .main-content{
+  padding:10px;
+ }

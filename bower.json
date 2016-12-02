@@ -1,0 +1,15 @@
+{
+  "name": "AZService",
+  "description": "AZService Web Application",
+  "main": "",
+  "authors": [
+    "creativebe <creativebe.pho@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/creativebe/AZService",
+  "dependencies": {
+    "AdminLTE": "admin-lte#^2.3.8",
+    "bootstrap": "^3.3.7",
+    "jquery-ui": "^1.12.1"
+  }
+}

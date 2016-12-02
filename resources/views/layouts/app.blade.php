@@ -94,13 +94,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ URL::to('list-users') }}">
-                                    <i class="fa fa-circle-o"></i>
-                                    List User
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
+                                <a href="{{ URL::to('manage-users') }}">
                                     <i class="fa fa-circle-o"></i>
                                     Manage User
                                 </a>

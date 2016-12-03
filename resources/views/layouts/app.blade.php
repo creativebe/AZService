@@ -104,11 +104,15 @@
                     @endpermission
 
                     @permission(('manage-privilege'))
-                    <li>
+                    <li class="treeview">
                         <a href="{{ URL::to('/') }}">
                             <i class="fa fa-user-secret"></i>
                             <span>Privilege</span>
                         </a>
+                        <ul class="treeview-menu">
+                            <li><a href="{{ URL::to('add-role')}}"><i class="fa fa-circle-o"></i>Add Role</a></li>
+                            <li><a href="{{ URL::to('manage-privilege')}}"><i class="fa fa-circle-o"></i>Manage Privilege</a></li>
+                        </ul>
                     </li>
                     @endpermission
                     <li class="treeview">

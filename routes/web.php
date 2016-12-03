@@ -25,4 +25,5 @@ Route::group(['middleware => web'], function(){
 });
 Route::group(['middleware => admin'], function(){
 	Route::get('/manage-users','UsersController@index');
+	Route::get('/manage-privilege','PrivilegeController@index');
 });

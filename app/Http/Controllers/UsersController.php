@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class UsersController extends Controller
 {
@@ -15,5 +16,15 @@ class UsersController extends Controller
 	{
 		$users = User::all();
 		return view('users.list_users', compact('users'));
+	}
+
+	public function show(User $user)
+	{
+		return $user;
+	}
+
+	public function edit(Request $request)
+	{
+		return $request->all();
 	}
 }

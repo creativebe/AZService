@@ -162,3 +162,14 @@ a:hover, a:active, a:focus{
  .main-content{
   padding:10px;
  }
+
+/*
+ *
+ * Box
+ *
+ *
+ */
+
+ .box.box-teal{
+  border-top-color: #00796B; 
+ }

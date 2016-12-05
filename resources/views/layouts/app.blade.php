@@ -194,5 +194,11 @@
     <script src="/js/jquery-ui.js"></script>
     <script src="/js/bootstrap.js"></script>
     <script src="/js/app.js"></script>
+    <script type="text/javascript">
+    $("#resetBtn").click(function(){
+        $(":input").val("");
+    });
+</script>
+    @yield('script')
 </body>
 </html>
